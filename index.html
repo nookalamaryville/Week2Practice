@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <div id="main-container">
+      <header></header>
+      <div id="left-side-bar">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Books</li>
+            <li>order</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <section>
+          <article>
+            <h2>Favorite Book Information</h2>
+            <table border="2">
+              <tr align="center">
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Links</th>
+              </tr>
+              <tr>
+                <td>Developing Business Applications for the Web</td>
+                <td>Laura Ubelhor and Christian Hur</td>
+                <td>2017</td>
+                <td><a href="https://www.mc-store.com//products/developing-business-applications-for-the-web-with-html-css-jsp-php-asp-net-and-javascript" target="_blank">View Book</a> </td>
+              </tr>
+            </table>
+          </article>
+        </section>
+        <section>
+          <br>
+          <h2>Web Form</h2>
+          <form method="POST" action="submit.php">
+            <fieldset>
+              <legend>User Information</legend>
+              <label for="Username">Username:</label>
+              <input type="text" name="Username" id="Username"/>
+              <br><br>
+              <label for="Password">Password:</label>
+              <input type="password" name="Password" id="Password"/>
+              <br>
+            </fieldset>
+            <fieldset>
+              <legend>Comments</legend>
+              <textarea name="Comments" id="Comments" rows="3" cols="45"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="Clear">
+            <input type="submit" value="Submit">
+          </form>
+        </section>
+      </main>
+      <footer>
+        &copy:2020. Malli Corporation, inc. All righs reserved
+      </footer>
+    </div>
+  </body>
+</html>
